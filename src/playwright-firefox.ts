@@ -28,7 +28,6 @@ async function main(): Promise<void> {
             console.log("ERROR: Element NOT VISIBLE: CAPTURING PAGE");
         }
 
-
         await page.waitForTimeout(2000);
 
         if (await element.isVisible()) {
